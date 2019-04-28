@@ -1,0 +1,218 @@
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Phone Number Should be in 10 digit , 
+ Amount Should be a positive Number ]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Phone Number Should be in 10 digit , 
+ Amount Should be a positive Number ]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Phone Number Should be in 10 digit , 
+ Amount Should be a positive Number ]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Phone Number Should be in 10 digit 
+, 
+ Amount Should be a positive Number 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Phone Number Should be in 10 digit 
+, 
+ Amount Should be a positive Number 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Amount Should be a positive Number 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:228)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+ORA-00942: table or view does not exist
+
+ORA-00942: table or view does not exist
+
+ORA-00942: table or view does not exist
+
+ORA-02289: sequence does not exist
+
+ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:229)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:229)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:229)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:229)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+exception occured
+com.igate.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.igate.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.igate.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:229)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+exception occured
+com.igate.donorapplication.exception.DonorException: Tehnical problem occured refer log
+	at com.igate.donorapplication.dao.DonorDaoImpl.addDonorDetails(DonorDaoImpl.java:87)
+	at com.igate.donorapplication.service.DonorServiceImpl.addDonorDetails(DonorServiceImpl.java:30)
+	at com.igate.donorapplication.pi.DonorMain.main(DonorMain.java:61)
+Donor details added successfully:
+Record Not Found Successfully
+Record Not Found Successfully
+Record Not Found Successfully
+Record Found Successfully
+Record Found Successfully
+2016-11-18-main-INFO -root      :Record Not Found Successfully
+2016-11-18-main-INFO -root      :Donor details added successfully:
+2016-11-18-main-INFO -root      :Donor details added successfully:
+2016-11-18-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:226)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2016-11-18-main-INFO -root      :Donor details added successfully:
+2016-11-18-main-INFO -root      :Record Found Successfully
+2018-06-28-main-ERROR-root      :exception occured 
+com.capgemini.donorapplication.exception.DonorException:  Database connection problem
+	at com.capgemini.donorapplication.util.DBConnection.getConnection(DBConnection.java:75)
+	at com.capgemini.donorapplication.dao.DonorDaoImpl.viewDonorDetails(DonorDaoImpl.java:121)
+	at com.capgemini.donorapplication.service.DonorServiceImpl.viewDonorDetails(DonorServiceImpl.java:47)
+	at com.capgemini.donorapplication.pi.DonorMain.getDonorDetails(DonorMain.java:171)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:96)
+2018-07-02-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+, 
+ Phone Number Should be in 10 digit 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-07-02-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException:  Database connection problem
+	at com.capgemini.donorapplication.util.DBConnection.getConnection(DBConnection.java:75)
+	at com.capgemini.donorapplication.dao.DonorDaoImpl.addDonorDetails(DonorDaoImpl.java:43)
+	at com.capgemini.donorapplication.service.DonorServiceImpl.addDonorDetails(DonorServiceImpl.java:30)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:61)
+2018-07-02-main-ERROR-root      :exception occured 
+com.capgemini.donorapplication.exception.DonorException:  Database connection problem
+	at com.capgemini.donorapplication.util.DBConnection.getConnection(DBConnection.java:75)
+	at com.capgemini.donorapplication.dao.DonorDaoImpl.viewDonorDetails(DonorDaoImpl.java:121)
+	at com.capgemini.donorapplication.service.DonorServiceImpl.viewDonorDetails(DonorServiceImpl.java:47)
+	at com.capgemini.donorapplication.pi.DonorMain.getDonorDetails(DonorMain.java:171)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:96)
+2018-07-02-main-INFO -root      :Donor details added successfully:
+2018-07-02-main-INFO -root      :Record Found Successfully
+2018-07-02-main-INFO -root      :Record Not Found Successfully
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+, 
+ Phone Number Should be in 10 digit 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-INFO -root      :Donor details added successfully:
+2018-08-25-main-INFO -root      :Record Found Successfully
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+, 
+ Phone Number Should be in 10 digit 
+, 
+ Amount Should be a positive Number 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
+2018-08-25-main-INFO -root      :Donor details added successfully:
+2018-08-25-main-INFO -root      :Record Found Successfully
+2018-08-25-main-INFO -root      :Record Found Successfully
+2018-08-25-main-ERROR-root      :exception occured
+com.capgemini.donorapplication.exception.DonorException: [
+ Address Should Be Greater Than 5 Characters 
+, 
+ Phone Number Should be in 10 digit 
+, 
+ Amount Should be a positive Number 
+]
+	at com.capgemini.donorapplication.service.DonorServiceImpl.validateDonor(DonorServiceImpl.java:100)
+	at com.capgemini.donorapplication.pi.DonorMain.populateDonorBean(DonorMain.java:215)
+	at com.capgemini.donorapplication.pi.DonorMain.main(DonorMain.java:55)
