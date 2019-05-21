@@ -1,0 +1,20 @@
+/************************************************************************************
+ * File                 : Binary_to_decimal.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to convert from binary to decimal number
+ * Version              : 1.0
+ * Last Modified Date   : 28-Mar-2019
+ ************************************************************************************/
+BEGIN
+	DECLARE num, decValue,binary, base, lastDigit AS INTEGER
+	PROMPT "Enter the binary number"
+	READ num
+	SET decValue = 0, base = 1, binary = num
+	WHILE binary>0
+		lastDigit = binary%10
+		binary = binary/10
+		decValue += lastDigit*base
+		base=base*2
+	END WHILE
+	PRINT decValue
+END

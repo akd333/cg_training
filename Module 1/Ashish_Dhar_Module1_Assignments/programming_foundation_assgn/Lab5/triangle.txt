@@ -1,0 +1,31 @@
+BEGIN
+	DECLARE a,b,c, sum1,sum2,sum3
+	PROMPT "Enter length of 3 sides of a triangle"
+	READ a, b and c
+	IF (a=b=c !>= 0)
+	PRINT "Please enter valid sides"
+	END IF
+	sum1=a+b
+	sum2=b+c
+	sum3=c+a
+	IF (isValid()) THEN
+		WHILE(sum1>c || sum2 >a || sum3 >b)
+			IF (a = b = c)
+				PRINT "Equilateral triangle"
+			ELSE IF (a=b || b==c || c==a)
+				PRINT "Isosceles triangle"
+			ELSE IF(a != b  && b!= c && c != a)
+				PRINT "Scalene triangle"
+			END IF
+		END WHILE
+	ELSE
+		PRINT "Invalid sides"
+	END IF
+END
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

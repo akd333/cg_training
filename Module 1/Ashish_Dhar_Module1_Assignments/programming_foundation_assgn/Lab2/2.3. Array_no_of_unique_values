@@ -1,0 +1,45 @@
+/************************************************************************************
+ * File                 : 2.3. Array_no_of_unique_values.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to find number of unique values in an array
+ * Version              : 1.0
+ * Last Modified Date   : 29-Mar-2019
+ ************************************************************************************/
+BEGIN
+	countTotal(num);
+END
+
+/*********************************************************************
+* Module Name       : countTotal(num)
+* Input Parameters  : num
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB countTotal(num)
+	DECLARE num, sum AS INTEGER
+	SET sum = 0
+	PRINT "Enter the number"
+	ACCEPT num
+	WHILE (num != 0)
+		sum = sum + n%10
+		num = num/10
+	PRINT "Sum of integers is": +sum
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

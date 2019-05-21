@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This web page is best viewed on Google Chrome version 73.0.3683.86(64-bit)-->
+<!--Header section starts here-->
+<head>
+	<title>Student Details</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+<!--End of header section-->
+
+<!--Body part starts here-->
+<body>
+	<center>
+		<div class="container">
+			<form name="student-data" method="post" action="">
+				<div class="header">
+					<span>Student Details</span>
+				</div>
+				<table>
+					<tr>
+						<td>Title</td>
+						<td>
+							<select name="title" width="50" required>
+								<option selected>Title</option>
+								<option value="Mr.">Mr.</option>
+								<option value="Miss.">Miss</option>
+								<option value="Mrs.">Mrs.</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td><input type="text" name="fname" pattern="^[a-zA-Z\s]+$" placeholder="Enter first name" required maxlength="10" ></td>
+					</tr>
+					<tr>
+						<td>Last Name</td>
+						<td><input type="text" name="lname" pattern="^[a-zA-Z\s]+$" placeholder="Enter last name" required></td>
+					</tr>
+					<tr>
+						<td>Marks 1</td>
+						<td><input type="number" class="number" name="mark1" pattern="^[0-9]*$" min="0" max="100" placeholder="Enter subject1 mark" required></td>
+					</tr>
+					<tr>
+						<td>Marks 2</td>
+						<td><input type="number" class="number" name="mark2" pattern="^[0-9]*$" min="0" max="100" placeholder="Enter subject2 mark" required></td>
+					</tr>
+					<tr>
+						<td>Marks 3</td>
+						<td><input type="number" class="number" name="mark3" pattern="^[0-9]*$" min="0" max="100" placeholder="Enter subject mark" required></td>
+					</tr>
+					<tr>
+						<td>Total Marks</td>
+						<td><input type="text" name="total" id="total" placeholder="Total marks" readonly></td>
+					</tr>
+					<tr>
+						<td>Average Marks</td>
+						<td><input type="text" name="average" id="average" placeholder="Average marks" readonly></td>
+					</tr>
+				</table>
+				<div class="control">
+					<input type="button" value="Submit" onclick="validateForm()"/>
+					<input type="reset" />
+				</div>
+			</form>
+		</div>
+	</center>
+</body>
+<!--End of body-->
+<html>

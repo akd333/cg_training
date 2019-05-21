@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This xml file is for storing email data-->
+<email xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="email.xsd">
+	<to>ashish.dhar@capgemini.com</to>
+	<from>abc@example.com</from>
+	<cc>xyx@example.com</cc>
+	<bcc>pqr@xyz.com</bcc>
+	<sub>XML</sub>
+	<body>This is my first xml file</body>
+</email>

@@ -1,0 +1,7 @@
+ALGORITHM Find(Matrix[0..n-1,0..n])
+//Input: An n by n+1 matrix Matrix[0..n-1,0..n] of real numbers
+for index? 0 to n-2 do
+for nextindex? index+1 to n-1 do
+for tempindex? index to n do
+Matrix[nextindex,tempindex]?Matrix[nextindex,tempindex]-
+Matrix[index,tempindex] * Matrix[nextindex,index] / Matrix[index,index]

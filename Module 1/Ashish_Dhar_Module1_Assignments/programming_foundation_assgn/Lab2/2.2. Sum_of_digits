@@ -1,0 +1,45 @@
+/************************************************************************************
+ * File                 : 2.2. Sum_of_digits.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to calculate total price
+ * Version              : 1.0
+ * Last Modified Date   : 29-Mar-2019
+ ************************************************************************************/
+BEGIN
+	findSum(num);
+END
+
+/*********************************************************************
+* Module Name       : findSum()
+* Input Parameters  : num
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To find the sum of integers of a number
+*********************************************************************/
+SUB findSum(num)
+	DECLARE num, sum AS INTEGER
+	SET sum = 0
+	PRINT "Enter the number"
+	ACCEPT num
+	WHILE (num != 0)
+		sum = sum + n%10
+		num = num/10
+	PRINT "Sum of integers is": +sum
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

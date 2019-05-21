@@ -1,0 +1,34 @@
+/************************************************************************************
+ * File                 : 1.6.1 Array_smallest_number.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to accept 10 numbers in an array and display the smallest number
+ * Version              : 1.0
+ * Last Modified Date   : 29-Mar-2019
+ ************************************************************************************/
+BEGIN
+	findSmallestNumber(number);
+END
+
+/*********************************************************************
+* Module Name       : findSmallestNumber(number)
+* Input Parameters  : number
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To find the smallest number in an array of 10 numbers
+*********************************************************************/
+SUB findSmallestNumber(number)
+	DECLARE numbers[10] as INTEGER ARRAY
+	DECLARE smallest as INTEGER
+	SET smallest to 0
+	FOR index = 0 to 9
+		ACCEPT numbers[index]
+	END FOR
+	smallest = numbers[0]
+	FOR index = 0 to 9
+		IF numbers[index] < smallest
+			smallest = numbers[index]
+		END IF
+	PRINT smallest
+	END FOR
+END SUB

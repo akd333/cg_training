@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This web page is best viewed on Google Chrome version 73.0.3683.86(64-bit)-->
+<!--Header section starts here-->
+<head>
+	<title>Employee Details</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+<!--End of header section-->
+
+<!--Body part starts here-->
+<body>
+	<center>
+		<div class="container">
+			<form name="emp-data" method="post" action="">
+				<div class="header">
+					<span>Employee Details</span>
+				</div>
+				<table>
+					<tr>
+						<td>Title<span class="required">*</span></td>
+						<td>
+							<select name="title" width="50" required>
+								<option selected>Select Title</option>
+								<option value="Mr.">Mr.</option>
+								<option value="Miss.">Miss</option>
+								<option value="Mrs.">Mrs.</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>First Name<span class="required">*</span></td>
+						<td><input type="text" name="fname" pattern="^[a-zA-Z\s]+$" placeholder="Enter first name" required maxlength="10" ></td>
+					</tr>
+					<tr>
+						<td>Last Name<span class="required">*</span></td>
+						<td><input type="text" name="lname" pattern="^[a-zA-Z\s]+$" placeholder="Enter last name" required></td>
+					</tr>
+					<tr>
+						<td>Gross Salary<span class="required">*</span></td>
+						<td><input type="number" class="number" name="sal" pattern="^[0-9]*$" min="0" placeholder="Enter gross salary" required></td>
+					</tr>
+					<tr>
+						<td>Address<span class="required">*</span></td>
+						<td><textarea class="address" name="address" placeholder="Enter address" required></textarea></td>
+					</tr>
+				</table>
+				<div class="control">
+					<input type="button" value="Submit" onclick="validateForm()"/>
+				</div>
+			</form>
+		</div>
+	</center>
+</body>
+<!--End of body-->
+<html>

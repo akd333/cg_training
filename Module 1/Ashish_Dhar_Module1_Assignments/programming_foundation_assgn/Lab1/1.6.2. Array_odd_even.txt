@@ -1,0 +1,25 @@
+/************************************************************************************
+ * File                 : Array_odd_even.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to accept 10 numbers in an array and display add and even numbers separately
+ * Version              : 1.0
+ * Last Modified Date   : 28-Mar-2019
+ ************************************************************************************/
+BEGIN
+	DECLARE numbers[10] as INTEGER ARRAY
+	DECLARE odd,even as INTEGER
+	SET smallest to 0
+	FOR index = 0 to 9
+		ACCEPT numbers[index]
+	END FOR
+	PROMPT "The even numbers are"
+	FOR index = 0 to 9
+		IF numbers[index]%2 == 0
+			PRINT number[index] \n
+	END FOR
+	PROMPT "The odd numbers are"
+	FOR index = 0 to 9
+		IF numbers[index]%2 != 0
+			PRINT number[index] \n
+	END FOR
+END

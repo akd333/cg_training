@@ -1,0 +1,56 @@
+/************************************************************************************
+ * File                 : ATM_Functionality_Pseudocode.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudocode to perform withdraw functionality for ATM
+ * Version              : 1.1
+ * Last Modified Date   : 11-Apr-2019
+ * Change Description   : N/A
+ ************************************************************************************/
+
+BEGIN
+	withdrawBalance(currentBalance,withrawBalance)
+     EXCEPTION
+		when ErrorBalanceLimit THEN
+		  PRINT "error message"   //Error message returned from exception     
+END
+
+/*********************************************************************
+* Module Name       : withdrawBalance()
+* Input Parameters  : currentBalance, withrawBalance
+* Return Type       : FLOAT
+* Author            : Ashish Dhar
+* Creation Date     : 11-Apr-2019
+* Description       : Withraw the balance
+*********************************************************************/
+SUB withdrawBalance(currentBalance,withrawBalance)
+	DECLARE accountNumber,accountName as STRING
+	DECLARE currentBalance,withrawBalance,pin AS INTEGER
+	PROMPT "Enter the pin"
+	READ pin
+	IF (isValid()) THEN
+		IF currentBalance > withdrawBalance 
+			currentBalance = currentBalance - withdrawBalance //update the balance in customer account
+			PRINT "Transaction successful ! Your current balance is " + currentBalance + "after withdrawal of amount" +withrawBalance
+		ELSE
+			RAISE ErrorBalanceLimit("Transaction failed due to insufficient balance !")
+		END IF
+	END IF
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 11-Apr-2019
+* Description       : To validate the pin is integer and all data of customer are correct
+*********************************************************************/
+SUB isValid()
+	IF(isInteger(pin))
+		IF(isValid(data)) THEN
+			RETURN true
+		ELSE
+			RETURN false
+		END IF
+	END IF
+END SUB

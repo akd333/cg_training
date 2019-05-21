@@ -1,0 +1,39 @@
+/*css index.html file */
+.container{
+	max-width:600px;
+}
+.header {
+	padding:30px 0px 30px 0px;
+	font-size:50px;
+	color:white;
+	font-weight:bold;
+	
+}
+.header, .control{
+	background-color:#57b29b;
+}
+.control{
+	padding:30px 0px 30px 0px;
+}
+table{
+	padding: 50px;
+}
+table{
+	border: 1px solid #57b29b;
+	margin: 20px 0px;
+}
+select{
+	width:173px;
+	height:25px;
+}
+.number,textarea{
+	width:170px;
+}
+body {
+	color:#57b29b;
+	font-size:15px;
+	font-weight:bold;
+}
+.required{
+	color:red;
+}

@@ -1,0 +1,295 @@
+2019-04-29-main-ERROR-root      :Problem in generating purchase id
+2019-04-29-main-ERROR-root      :Mobile details insertion failed
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in generating purchase id
+Closed Connection
+2019-04-30-main-ERROR-root      :Problem in generating mobile id
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in generating mobile id
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in getting mobile list
+Closed Connection
+2019-04-30-main-ERROR-root      :Problem deleting mobileClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-04-30-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-04-30-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-05-01-main-ERROR-root      :Unable to insert mobile details
+ Problem in inserting product details
+Closed Connection
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1084
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1085
+2019-05-01-main-ERROR-root      :Mobile details insertion failedClosed Connection
+2019-05-01-main-ERROR-root      :Unable to insert mobile details
+ Problem in inserting product details
+Closed Connection
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1087
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct phone number
+2019-05-01-main-ERROR-root      :Problem in rolling back purchase details
+Closed Connection
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+Closed Connection
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in searching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in searching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in searching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-ERROR-root      :Problem in getting mobile list
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :Unable to show mobile list
+Problem in fetching mobile listORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :
+2019-05-01-main-ERROR-root      :Problem deleting mobileORA-02292: integrity constraint (LAB01TRG40.SYS_C001401281) violated - child record found
+
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :Mobile doesn't exist with product id 3333
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1088
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :Problem in searching productProblem in searching mobile
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1089
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1090
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :Mobile details inserted in table with id 1091
+2019-05-01-main-ERROR-root      :Problem in getting mobile list
+Closed Connection
+2019-05-01-main-ERROR-root      :Unable to show mobile list
+Problem in fetching mobile listClosed Connection
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :Problem in searching productProblem in searching mobile
+Closed Connection
+2019-05-01-main-ERROR-root      :problem in placing order
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in placing order
+ORA-01000: maximum open cursors exceeded
+
+2019-05-01-main-ERROR-root      :Problem deleting mobileORA-02292: integrity constraint (LAB01TRG40.SYS_C001401281) violated - child record found
+
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :
+2019-05-01-main-INFO -root      :
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Problem in searching productProblem in searching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-INFO -root      :Mobile doesn't exist with product id 3000
+2019-05-01-main-INFO -root      :Mobile not avaelable with id 1007
+2019-05-01-main-INFO -root      :Purchase done with id 1035
+2019-05-01-main-INFO -root      :Purchase done with id 1036
+2019-05-01-main-INFO -root      :Purchase done with id 1037
+2019-05-01-main-INFO -root      :Purchase done with id 1038
+2019-05-01-main-INFO -root      :Purchase done with id 1039
+2019-05-01-main-INFO -root      :Purchase done with id 1040
+2019-05-01-main-INFO -root      :Purchase done with id 1041
+2019-05-01-main-ERROR-root      :Mobile name is not correct
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Mobile name is not correct
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Mobile name is not correct
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Price is not correct
+2019-05-01-main-ERROR-root      :Invalid dataPlease enter a correct price...Price should minimum of 2 digit and not starts from 0
+2019-05-01-main-ERROR-root      :Mobile name is not correct
+2019-05-01-main-ERROR-root      :Invalid dataMobile name should start with capital letter and it should be minimum of 3 letters
+2019-05-01-main-ERROR-root      :Price is not correct
+2019-05-01-main-ERROR-root      :Invalid dataPlease enter a correct price...Price should minimum of 2 digit and not starts from 0
+2019-05-01-main-ERROR-root      :Invalid dataPrice should be maximum of 1000
+2019-05-01-main-ERROR-root      :Invalid customer name
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct name...Customer name should be os 3-20 characters
+2019-05-01-main-ERROR-root      :Invalid customer mobile number
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct phone number
+2019-05-01-main-INFO -root      :Mobile not avaelable with id 10888
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in searching mobile
+
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Invalid customer mobile number
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct phone number
+2019-05-01-main-ERROR-root      :Invalid customer mobile number
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct phone number
+2019-05-01-main-ERROR-root      :Problem in serching mobile
+ORA-01722: invalid number
+
+2019-05-01-main-ERROR-root      :Unable to make purchase
+Problem in searching mobile
+
+2019-05-01-main-ERROR-root      :Invalid customer mobile number
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct phone number
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-INFO -root      :Invalid choice
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-01-main-ERROR-root      :invalid customer email id
+2019-05-01-main-ERROR-root      :Invalid data
+Please enter a correct emailid
+2019-05-02-main-ERROR-root      :invalid customer email id
+2019-05-02-main-ERROR-root      :Invalid data
+Please enter a correct emailid

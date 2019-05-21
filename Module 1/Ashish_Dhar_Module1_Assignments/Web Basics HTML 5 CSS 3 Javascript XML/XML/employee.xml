@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="employee.xsd">
+	<employee>
+		<code>101</code>
+		<name>Preetam</name>
+		<date>10-JAN-2010</date>
+		<salary>18000</salary>
+		<grade>A</grade>
+		<department>20</department>
+	</employee>
+	<employee>
+		<code>102</code>
+		<name>Aakash</name>
+		<date>10-NOV-2005</date>
+		<salary>48000</salary>
+		<grade>C</grade>
+		<department>10</department>
+	</employee>
+	<employee>
+		<code>103</code>
+		<name>Kishore</name>
+		<date>19-DEC-2011</date>
+		<salary>42000</salary>
+		<grade>C</grade>
+		<department>40</department>
+	</employee>
+	<employee>
+		<code>104</code>
+		<name>Reena</name>
+		<date>23-JUN-2006</date>
+		<salary>33000</salary>
+		<grade>B</grade>
+		<department>20</department>
+	</employee>
+	<employee>
+		<code>105</code>
+		<name>Kailash</name>
+		<date>05-FEB-2004</date>
+		<salary>36000</salary>
+		<grade>C</grade>
+		<department>30</department>
+	</employee>
+</employees>
+

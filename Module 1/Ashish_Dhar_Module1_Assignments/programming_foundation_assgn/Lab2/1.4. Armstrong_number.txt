@@ -1,0 +1,54 @@
+/************************************************************************************
+ * File                 : Armstrong_number.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to accept 10 numbers in an array and display the smallest number
+ * Version              : 1.0
+ * Last Modified Date   : 29-Mar-2019
+ * Change Description   : Added modules
+ ************************************************************************************/
+BEGIN
+	checkArmstrong();
+END
+
+/*********************************************************************
+* Module Name       : checkArmstrong()
+* Input Parameters  : num
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To check the number is armstrong number or not
+*********************************************************************/
+SUB checkArmstrong()
+	DECLARE num,sum,armNo,rem AS INTEGER
+	PROMPT "Enter the number"
+	READ num
+	SET sum=0,armNo=num
+	IF (isValid()) THEN
+		WHILE num>0 
+			rem = armNo%10
+			sum = sum + (rem*rem*rem)
+			num = num/10
+		END WHILE
+	END IF
+	IF sum == armNo
+		PRINT "The number is an Armstrong number"
+	ELSE 
+		PRINT "The number is not an Armstrong number"
+	END IF
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

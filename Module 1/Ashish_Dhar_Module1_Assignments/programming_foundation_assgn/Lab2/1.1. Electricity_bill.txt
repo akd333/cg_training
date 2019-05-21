@@ -1,0 +1,68 @@
+/************************************************************************************
+ * File                 : 1.1. Electricity_bill.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to calculate net electricity bill amount
+ * Version              : 1.1
+ * Last Modified Date   : 29-Mar-2019
+ * Change Description   : Added modules
+ ************************************************************************************/
+BEGIN
+	DECLARE lastReading,currentReading,unitConsumed,netAmount AS FLOAT
+ 	PROMPT "Enter the userId, userName, lastReading and currentReading"
+	READ userId, userName, lastReading, currentReading
+	calcNetAmount(unitConsumed);
+END
+
+/*********************************************************************
+* Module Name       : calcUnitConsumed()
+* Input Parameters  : productId, discount
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : Calculating unit consumed
+*********************************************************************/
+SUB calcUnitConsumed(lastReading,currentReading)
+	IF (isValid()) THEN
+		IF lastReading !> 0
+			PRINT "Invalid last reading"
+		ELSE IF currentReading !> 0
+			PRINT "Invalid current reading"
+		ELSE
+			unitConsumed = lastReading - currentReading
+		END IF
+	END IF
+END SUB
+
+/*********************************************************************
+* Module Name       : calcNetAmount()
+* Input Parameters  : unitConsumed
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : Calculating net amount
+*********************************************************************/
+SUB calcNetAmount(unitConsumed)
+	DECLARE fixedCharge AS INTEGER
+	SET fixedCharge TO 100
+	netAmount = (unitConsumed * 1.15) + fixedCharge
+	PRINT "User ID :" + userId
+	PRINT "User Name :" + userName 
+	PRINT "Unit Consumed :" + unitConsumed
+	PRINT "Net amount :" + netAmount
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

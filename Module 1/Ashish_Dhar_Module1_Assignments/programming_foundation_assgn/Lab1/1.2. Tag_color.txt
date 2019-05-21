@@ -1,0 +1,26 @@
+/************************************************************************************
+ * File                 : Tag_color.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to accept the experience and display their tag color
+ * Version              : 1.0
+ * Last Modified Date   : 28-Mar-2019
+ ************************************************************************************/
+
+BEGIN
+	DECLARE exp, maxExp AS INTEGER
+	SET maxExp = 35
+	DECLARE tagColor as STRING
+	PROMPT "Enter the experience"
+	READ exp
+	IF exp >= 0 AND < 3 THEN
+		tagColor = "Blue"
+	ELSE IF exp >= 3 AND exp < 5 THEN
+		tagColor = "Grey"
+	ELSE IF exp >= 5 AND exp < 10 THEN
+		tagColor = "Yellow"
+	ELSE IF exp >= 10 AND exp < maxExp THEN
+		tagColor = "Red"
+	ELSE
+		PRINT "Please eneter a valid experience"
+	END IF
+END

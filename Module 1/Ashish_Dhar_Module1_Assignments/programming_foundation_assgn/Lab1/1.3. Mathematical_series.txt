@@ -1,0 +1,28 @@
+/************************************************************************************
+ * File                 : Mathematical_series.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to print the mathematical series
+ * Version              : 1.0
+ * Last Modified Date   : 28-Mar-2019
+ ************************************************************************************/
+BEGIN
+	DECLARE pre,post,sum,n AS INTEGER
+	PROMPT "Enter the size of mathematical series"
+	READ n
+	SET pre = post = 1
+	IF n<1
+		PRINT 0
+	ELSE IF n == 1
+		PRINT 1
+	ELSE IF n == 2
+		PRINT 1,1
+	ELSE IF n>2
+		PRINT pre,post
+		FOR n 0 to n-2 LOOP
+			sum = pre+post
+			PRINT sum
+			pre = post
+			post = sum
+		END LOOP
+	END IF
+END

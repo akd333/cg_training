@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This web page is best viewed on Google Chrome version 73.0.3683.86(64-bit)-->
+<!--Header section starts here-->
+<head>
+	<title>prb1</title>
+	<style>	
+		h1,h6{
+			text-align: center;
+		}
+		table{
+			border:1px solid black;
+			background-color:skyblue;
+		}
+	</style>
+</head>
+<!--End of header section-->
+
+<!--Body part starts here-->
+<body>
+	<h1>Candidate Information</h1>
+	<center>
+		<table border=2>
+			<tr>
+				<td>Name :<span style="color:red">*</span> </td>
+				<td><input type="text" name="name" required/></td>
+			</tr>
+			<tr>
+				<td>Password : <span style="color:red">*</span></td>
+				<td><input type="password" name="password" required/></td>
+			</tr>
+			<tr>
+				<td>Phone number: <span style="color:red">*</span></td>
+				<td><input type="text" name="phone" maxlength="10" required/></td>
+			</tr>
+			<tr>
+				<td>Gender : <span style="color:red">*</span></td>
+				<td>
+					<input type="radio" name="gen" value="male" />Male
+					<input type="radio" name="gen" value="female" checked/>Female
+				</td>
+			</tr>
+			<tr>
+				<td>Date of Birth: <span style="color:red">*</span></td>
+				<td><input type="date" name="dob" required/></td>
+			</tr>
+			<tr>
+				<td>Email: <span style="color:red">*</span></td>
+				<td><input type="email" name="email" required/></td>
+			</tr>
+			<tr>
+				<td>Highest Qualification : <span style="color:red">*</span></td>
+				<td>
+					<select name="qualification" required>
+						<option selected>Select highest qualification</option>
+						<option>MCA</option>
+						<option>BSc</option>
+						<option>BTech</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Course Interested in:</td>
+				<td>
+					<input type="checkbox" name="course" value="java">JAVA</input>
+					<input type="checkbox" name="course" value="cobol">HTML5</input>
+					<input type="checkbox" name="course" value="idms">CSS3</input>
+					<input type="checkbox" name="course" value="cobol">AngularJS</input>
+					<input type="checkbox" name="course" value="idms">JQuery</input>
+				</td>
+			</tr>
+			<tr>
+				<td>Comments: (Mention external certification if any) </td>
+				<td><textarea placeholder="Enter your address" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Upload Degree/External Certificates: <span style="color:red">*</span></td>
+				<td><input type="file" name="file" required/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="Submit" Value="Submit Information" name="s-but">
+					<input type="reset" Value="Clear">
+				</td>
+			</tr>
+		</table>
+		<h6 style="color:red">All fields marked(*) are mandatory</h6>
+	</center>
+</body>
+<!--End of body-->
+<html>

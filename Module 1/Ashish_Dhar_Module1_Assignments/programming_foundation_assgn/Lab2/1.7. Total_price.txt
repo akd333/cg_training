@@ -1,0 +1,45 @@
+/************************************************************************************
+ * File                 : 1.7. Total_price.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to calculate total price
+ * Version              : 1.1
+ * Last Modified Date   : 29-Mar-2019
+ ************************************************************************************/
+BEGIN
+	calcTotalPrice();
+END
+
+/*********************************************************************
+* Module Name       : calcTotalprice()
+* Input Parameters  : price
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To calculate total price
+*********************************************************************/
+SUB calcTotalPrice(price)
+	DECLARE p,tc,tax AS FLOAT
+	SET tax = .56
+	PRINT "Enter price of your product"
+	IF (isValid()) THEN
+		ACCEPT p
+		tc = p*.56
+		PRINT "Total price of product is": +tc
+	END IF
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

@@ -1,0 +1,60 @@
+/************************************************************************************
+ * File                 : Mathematical_series.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to print the mathematical series
+ * Version              : 1.1
+ * Last Modified Date   : 29-Mar-2019
+ * Change Description   : Added modules
+ ************************************************************************************/
+BEGIN
+	printMathSeries();
+END
+
+/*********************************************************************
+* Module Name       : printMathSeries()
+* Input Parameters  : pre,post
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB printMathSeries(pre,post)
+	DECLARE pre,post,sum,number AS INTEGER
+	PROMPT "Enter the size of mathematical series"
+	READ number
+	SET pre = post = 1
+	
+	IF (isValid()) THEN
+		IF number<1
+			PRINT 0
+		ELSE IF number == 1
+			PRINT 1
+		ELSE IF number == 2
+			PRINT 1,1
+		ELSE IF number>2
+			PRINT pre,post
+			FOR number 0 to number-2 LOOP
+				sum = pre+post
+				PRINT sum
+				pre = post
+				post = sum
+			END LOOP
+		END IF
+	END IF
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

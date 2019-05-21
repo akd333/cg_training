@@ -1,0 +1,21 @@
+/************************************************************************************
+ * File                 : Electricity_bill.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to calculate net electricity bill amount
+ * Version              : 1.0
+ * Last Modified Date   : 28-Mar-2019
+ ************************************************************************************/
+BEGIN
+	DECLARE userId, userName AS STRING
+	DECLARE lastReading,currentReading,unitConsumed,netAmount AS FLOAT
+	DECLARE fixedCharge AS INTEGER
+	SET fixedCharge TO 100
+ 	PROMPT "Enter the userId, userName, lastReading and currentReading"
+	READ userId, userName, lastReading, currentReading
+	unitConsumed = lastReading - currentReading
+	netAmount = (unitConsumed * 1.15) + fixedCharge
+	PRINT "User ID :" + userId
+	PRINT "User Name :" + userName
+	PRINT "Unit Consumed :" + unitConsumed
+	PRINT "Net amount :" + netAmount
+END

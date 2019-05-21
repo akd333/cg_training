@@ -1,0 +1,58 @@
+/************************************************************************************
+ * File                 : Tag_color.txt
+ * Author Name          : Ashish Dhar
+ * Desc                 : Pseudo code to accept the experience and display their tag color
+ * Version              : 1.1
+ * Last Modified Date   : 29-Mar-2019
+ * Change Description   : Added modules
+ ************************************************************************************/
+
+BEGIN
+	findTagColor(exp,maxExp);
+END
+
+/*********************************************************************
+* Module Name       : finfTagColor()
+* Input Parameters  : exp, maxExp
+* Return Type       : INTEGER
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : Calculating unit consumed
+*********************************************************************/
+SUB findTagColor(exp,maxExp)
+	DECLARE exp, maxExp AS INTEGER
+	SET maxExp = 35
+	DECLARE tagColor as STRING
+	PROMPT "Enter the experience"
+	READ exp
+	IF (isValid()) THEN
+		IF exp >= 0 AND < 3 THEN
+			tagColor = "Blue"
+		ELSE IF exp >= 3 AND exp < 5 THEN
+			tagColor = "Grey"
+		ELSE IF exp >= 5 AND exp < 10 THEN
+			tagColor = "Yellow"
+		ELSE IF exp >= 10 AND exp < maxExp THEN
+			tagColor = "Red"
+		ELSE
+			PRINT "Please eneter a valid experience"
+		END IF
+	END IF
+	PRINT "The tag color is" + tagColor
+END SUB
+
+/*********************************************************************
+* Module Name       : isValid()
+* Input Parameters  : data
+* Return Type       : BOOLEAN
+* Author            : Ashish Dhar
+* Creation Date     : 29-Mar-2019
+* Description       : To validate data accepting only digits
+*********************************************************************/
+SUB isValid(data)
+	IF(isDigits(data)) THEN
+		RETURN true
+	ELSE
+		RETURN false
+	END IF
+END SUB

@@ -1,0 +1,9 @@
+ALGORITHM Check(A[0..n-1])
+//Input: An array A[0..n-1] of n real numbers
+x? A[0]; y?A[0]
+for i?1 to n-1 do
+if A[i]<x
+x? A[i]
+if A[i]>y
+y? A[i]
+return y-x

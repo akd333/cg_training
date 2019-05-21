@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- definition of simple elements -->
+	<xs:element name="to" type="xs:string" />
+	<xs:element name="from" type="xs:string" />
+	<xs:element name="cc" type="xs:string" />
+	<xs:element name="bcc" type="xs:string" />
+	<xs:element name="sub" type="xs:string" />
+	<xs:element name="body" type="xs:string" />
+	<!-- definition of complex elements -->
+	<xs:element name="email">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="to" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="from" maxOccurs="1"/>
+				<xs:element ref="cc" maxOccurs="unbounded"/>
+				<xs:element ref="bcc" maxOccurs="unbounded"/>
+				<xs:element ref="sub" />
+				<xs:element ref="body" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

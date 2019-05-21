@@ -1,0 +1,9 @@
+//Input: An array A[0..n-1] of real numbers
+If n=1
+return A[0]
+else
+t?surprise(A[0..n-2])
+if t<=A[n-1]
+return t
+else
+return A[n-1]

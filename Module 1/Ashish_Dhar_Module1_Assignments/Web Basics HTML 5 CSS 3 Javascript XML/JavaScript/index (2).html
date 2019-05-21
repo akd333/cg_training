@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This web page is best viewed on Google Chrome version 73.0.3683.86(64-bit)-->
+<!--Header section starts here-->
+<head>
+	<title>Employee Registration Form</title>
+</head>
+<!--End of header section-->
+
+<!--Body part starts here-->
+<body>
+	<div class= "container">
+	<h1><center>Employee Registration Form</center></h1>
+	<form action="#" method="post">
+		<table>
+			<tr>
+				<td>
+					<label>First Name:<label>
+				</td>
+				<td>
+					<input type="text" name="fname" class="fname" placeholder="Enter first name" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Last Name:<label>
+				</td>
+				<td>
+					<input type="text" name="lname" class="lname" placeholder="Enter last name"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>DOB:<label>
+				</td>
+				<td>
+					<input type="date" name="dob" class="dob" placeholder="Enter date of birth" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Email ID:<label>
+				</td>
+				<td>
+					<input type="email" name="email" class="email" placeholder="Enter email id" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Mobile Number:<label>
+				</td>
+				<td>
+					<input type="tel" maxlength="10" name="phone" class="phone" placeholder="Enter mobile number" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Blood Group:<label>
+				</td>
+				<td>
+					<select name="blood-group" class="blood-group" required>
+						<option>Select blood group</option>
+						<option>AB+</option>
+						<option>AB-</option>
+						<option>A+</option>
+						<option>A-</option>
+						<option>B+</option>
+						<option>B-</option>
+						<option>O+</option>
+						<option>O-</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Gender:<label>
+				</td>
+				<td>
+					<input type="radio" name="gen" value="male" checked/>Male
+					<input type="radio" name="gen" value="Female"/>Female
+					<input type="radio" name="gen" value="Other"/>Other
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Address:<label>
+				</td>
+				<td>
+					<textarea name="address" placeholder="Enter address" required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Languages Known:<label>
+				</td>
+				<td>
+					<input type="checkbox" name="lang" value="english">English</input>
+					<input type="checkbox" name="lang" value="hindi">Hindi</input>
+					<input type="checkbox" name="lang" value="other">Others</input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="submit">Register</button>
+				</td>
+				<td>
+					<button type="reset">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</div>
+</body>
+<!--End of body-->
+<html>
